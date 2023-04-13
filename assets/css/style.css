@@ -126,3 +126,123 @@ input{
 /*--------------------------------------------*/
 /*Donate plan SECTION*/
 /*--------------------------------------------*/
+.section__donate-plan{
+    padding: 0 157px;
+}
+.plan__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.donate-plans{
+    display: flex;
+    gap: 24px;
+}
+.plan{
+    padding: 50px 25px;
+}
+.plan-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.plan-desc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin-top: 16px;
+}
+.donate-plans .plan:nth-child(1){
+    background: rgba(79, 157, 166, 0.1);
+}
+.donate-plans .plan:nth-child(2){
+    background: rgba(255, 89, 89, 0.1);
+}
+.donate-plans .plan:nth-child(3){
+    background: #FFF4D6;
+}
+.plan{
+    border-radius: 5px;
+}
+
+/*--------------------------------------------*/
+/*howToContribute SECTION*/
+/*--------------------------------------------*/
+.howToContribute__section{
+    padding: 0 157px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 150px;
+}
+.livesDepend{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.livesDepend > img{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+.lives__title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.lives__desc{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding: 30px 0;
+}
+
+/*--------------------------------------------*/
+/*NewsLatter SECTION*/
+/*--------------------------------------------*/
+
+.newsLatter__section{
+    padding: 0 157px;
+    margin-bottom:130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    padding: 76px 180px;
+    background: #FFF4D6;
+    margin-top: 50px;
+}
+.mail button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+}
+.mail > input{
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: 0;
+
+}
+.newsLatter__section > p{
+    margin-top: 20px;
+}
+.mail input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+    text-align: left;
+    padding-left: 10px;
+}
