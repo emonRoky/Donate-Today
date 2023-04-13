@@ -12,10 +12,117 @@
 /*--------------------------------------------*/
 /*REUSABLE COMPONNENTS*/
 /*--------------------------------------------*/
+/* main{
+    padding: 155px 0;
+} */
+.section__title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-top:130px;
+}
+.title__desc{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    line-height: 28px;
+    padding: 0px 190px;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    padding: 16px 12px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
 
-
+}
 /*--------------------------------------------*/
 /*BANNER SECTION*/
 /*--------------------------------------------*/
+.banner{
+    text-align: center;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.banner > p{
+    color: #FFFFFF;
+}
+.banner__title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+}
+header{
+    background-image:linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url("../images/donation3.jpg");
+    background-repeat: no-repeat;
+    height: 640px;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+}
 
+/*--------------------------------------------*/
+/*Donate SECTION*/
+/*--------------------------------------------*/
+.donate__section{
+    padding: 0 140px;
+}
+.donat__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.donate__money{
+    display: flex;
+    justify-content: center;
+    gap:22px;
+}
+.money{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 25px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+.money:nth-child(2){
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donat__container input[type="number"]{
+    border: 0;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+    width: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    text-align: center;
+}
+input{
+    height: 30px;
+}
 
+/*--------------------------------------------*/
+/*Donate plan SECTION*/
+/*--------------------------------------------*/
